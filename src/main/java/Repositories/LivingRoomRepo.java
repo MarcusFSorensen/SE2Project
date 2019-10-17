@@ -41,6 +41,7 @@ public class LivingRoomRepo {
     public void setRooms(List<Room> rooms) {
         this.rooms = rooms;
     }
+
     public int getRoomSize(){
         return rooms.size();
     }
